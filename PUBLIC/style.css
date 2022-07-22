@@ -1,0 +1,56 @@
+*{
+    background-image: linear-gradient(to right, pink , white);
+}
+   
+  img {
+    margin: auto;
+    display: block;
+    width: 30%;
+   border-radius:20px ;
+   box-shadow: 1px 5px 5px gray
+  }
+
+/* .previous + .next{
+    position: relative;
+} */
+
+
+
+
+.slider-btn{
+    cursor: pointer;
+    top: 30%;
+    width: auto;
+    padding: 8px 16px;
+    color: rgb(154, 33, 33);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgb(169, 102, 152);
+    border-radius: 10%;
+  }
+
+
+.next{
+    margin-top:-22px;
+    position: absolute;
+}
+
+.previous{
+    margin-top:-82px;
+    position: absolute;
+}
+
+.previous:hover,
+  .next:hover {
+    color: rgb(32, 19, 91);
+  }
+
+
+
+
+
+
+
